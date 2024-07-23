@@ -1,0 +1,17 @@
+import java.util.*;
+class details
+{
+  public static void main (String args[])
+  {
+      Scanner S1 = new Scanner(System.in);
+      int i;
+      String j,k;
+      System.out.println("enter the name");
+      j = S1.nextLine();
+      System.out.println("enter the class");
+      k = S1.nextLine();
+      System.out.println("enter the roll no");
+      i = S1.nextInt();
+      System.out.println("Name:"+j+"\n Class:"+k+"\n roll no :"+i);
+  }
+}
