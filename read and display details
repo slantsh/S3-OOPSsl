@@ -12,6 +12,6 @@ class details
       k = S1.nextLine();
       System.out.println("enter the roll no");
       i = S1.nextInt();
-      System.out.println("Name:"+j+"\n Class:"+k+"\n roll no :"+i);
+      System.out.println("Name:"+j+"\nClass:"+k+"\nroll no :"+i);
   }
 }
