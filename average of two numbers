@@ -1,0 +1,14 @@
+import java.util.*;
+class avg
+{
+  public static void main (String args[])
+  {
+      Scanner S1 = new Scanner(System.in);
+      int i,j,avg;
+      System.out.println("enter the two numbers");
+      i = S1.nextInt();
+      j = S1.nextInt();
+      avg = (i + j)/2;
+      System.out.println("the average of two numbers are "+sum);
+  }
+}
