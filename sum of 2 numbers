@@ -1,1 +1,14 @@
-dsfsfsf
+import java.util.*;
+class sum
+{
+  public static void main (String args[])
+  {
+      Scanner S1 = new Scanner(System.in);
+      int i,j,sum;
+      System.out.println("enter the two numbers");
+      i = S1.nextInt();
+      j = S1.nextInt();
+      sum = i + j;
+      System.out.println("the sum of two numbers are "+sum);
+  }
+}
