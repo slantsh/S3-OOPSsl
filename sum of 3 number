@@ -1,0 +1,15 @@
+import java.util.*;
+class sum
+{
+  public static void main (String args[])
+  {
+      Scanner S1 = new Scanner(System.in);
+      int i,j,k,sum;
+      System.out.println("enter the three numbers");
+      i = S1.nextInt();
+      j = S1.nextInt();
+      k = S1.nextInt();
+      sum = i + j + k;
+      System.out.println("the sum of three numbers are "+sum);
+  }
+}
