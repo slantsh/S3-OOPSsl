@@ -9,6 +9,6 @@ class avg
       i = S1.nextInt();
       j = S1.nextInt();
       avg = (i + j)/2;
-      System.out.println("the average of two numbers are "+sum);
+      System.out.println("the average of two numbers are "+avg);
   }
 }
